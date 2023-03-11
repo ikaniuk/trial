@@ -107,3 +107,20 @@
 //   // Нахождение суммы двух первых элементов в массиве
 //   return numbers[0] + numbers[1];
 // }
+
+
+// function filter_list(values) {
+//     const newArr = [];
+//     for (const value of values) {
+//         if (typeof (value) === 'number') {
+//             newArr.push(value);
+
+//         }
+
+        
+//     }
+
+//     return newArr;
+// }
+
+// console.log(filter_list([1, 2, 34, 'gh', '1']));
