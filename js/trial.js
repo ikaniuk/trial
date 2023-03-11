@@ -139,9 +139,15 @@
 // become "Ths wbst s fr lsrs LL!".
 
 // function disemvowel(str) {
+//     const vowels = ['a', 'e', 'i', 'o', 'u'];
+//     let result = '';
 //     for (let i = 0; i < str.length; i += 1){
-//         console.log(str[i]);
+//         if (!vowels.includes(str[i].toLowerCase())) {
+//             result += str[i];
+//         }
 //     }
+
+//     return result;
 // }
 
-// disemvowel("This website is for losers LOL!")
+// console.log(disemvowel("This website is for losers LOL!"))
