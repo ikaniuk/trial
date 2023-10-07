@@ -12,7 +12,7 @@
 //     }
 //   }
 //   return x.join('');
-    
+
 // }
 
 // 2)-------------------------------------------
@@ -46,7 +46,6 @@
 
 // console.log(findDuplicateNumbers([1, 2, 4, 5, 6, 10, 22, 33, 44, 11, 2]))
 
-
 // ----------------------------------------------------------------------
 // Create a function that returns the sum of the two lowest positive numbers given an
 // array of minimum 4 positive integers.No floats or non - positive integers will be passed.
@@ -73,7 +72,7 @@
 //     }
 
 //     minNumbers.push(secondSmallestNumber);
-    
+
 //     return minNumbers[0] + minNumbers[1];
 // }
 
@@ -84,7 +83,7 @@
 // function sumTwoSmallestNumbers(numbers) {
 //   let smallestNumber = Infinity;
 //   let secondSmallestNumber = Infinity;
-  
+
 //   for (const number of numbers) {
 //     if (number < smallestNumber) {
 //       secondSmallestNumber = smallestNumber;
@@ -93,11 +92,9 @@
 //       secondSmallestNumber = number;
 //     }
 //   }
-  
+
 //   return smallestNumber + secondSmallestNumber;
 // }
-
-
 
 // --------------------------------------------------------------------
 // function sumTwoSmallestNumbers(numbers) {
@@ -108,7 +105,6 @@
 //   return numbers[0] + numbers[1];
 // }
 
-
 // function filter_list(values) {
 //     const newArr = [];
 //     for (const value of values) {
@@ -117,14 +113,12 @@
 
 //         }
 
-        
 //     }
 
 //     return newArr;
 // }
 
 // console.log(filter_list([1, 2, 34, 'gh', '1']));
-
 
 // ----------------------------------------------------------------------
 // Trolls are attacking your comment section!
@@ -165,3 +159,12 @@
 
 // console.log(getSum(5, -1))
 // console.log(getSum(525, 197))
+
+// ------------------------------------------------------
+// Complete the solution so that it reverses the string passed into it.
+// 'world'  =>  'dlrow'
+// 'word'   =>  'drow'
+
+// const solution = str => str.split('').reverse().join('');
+
+// console.log(solution('qwert'));
